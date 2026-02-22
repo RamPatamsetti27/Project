@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Fruit Plant Varieties</title>
+
+  <!-- Tailwind -->
+  <script src="https://cdn.tailwindcss.com"></script>
+
+  <!-- Custom CSS -->
+  <link rel="stylesheet" href="palm.css" />
+</head>
+
+<body class="bg-green-50 text-gray-800 min-h-screen flex flex-col">
+
+  <!-- ================= HEADER ================= -->
+  <header class="bg-green-700 text-white sticky top-0 z-50">
+    <div class="max-w-7xl mx-auto px-4 py-4 flex flex-col md:flex-row items-center justify-between gap-3">
+      <div class="flex items-center gap-3">
+        <div class="logo">🌱</div>
+        <h1 class="text-lg sm:text-xl md:text-2xl font-bold text-center md:text-left">
+          Sri Satya Ramayya Nursery
+        </h1>
+      </div>
+      <nav class="flex flex-wrap justify-center md:justify-end gap-4 text-sm md:text-base">
+        <a href="index.html">Home</a>
+        <a href="plants.html">Plants</a>
+        <a href="about.html">About</a>
+        <a href="contact.html">Contact</a>
+      </nav>
+    </div>
+  </header>
+
+  <!-- ================= MAIN CONTENT ================= -->
+  <main class="flex-1">
+    <!-- ================= FRUIT PLANT CATEGORIES ================= -->
+    <section class="max-w-7xl mx-auto px-4 py-12">
+      <h2 class="text-3xl font-bold text-center mb-8">Palm Variety Categories</h2>
+
+      <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-8">
+
+        <!-- 1. Major Fruit Plants -->
+        <a href="major-fruits.html" class="block bg-green-100 rounded-xl shadow-lg overflow-hidden transform transition duration-300 hover:scale-105 hover:shadow-2xl">
+          <img src="https://img.freepik.com/free-photo/palm-tree-with-sun-breaking-through-green-branches_1268-15809.jpg?t=st=1771083589~exp=1771087189~hmac=43c7f5e9f409d4430169c01c609663875564a34da66a6d396268b2c8c74f7299&w=1480" class="h-48 w-full object-cover"/>
+          <div class="p-4 text-center">
+            <h3 class="text-xl font-semibold">Tall & Highway Palm Varieties</h3>
+          </div>
+        </a>
+
+        <!-- 2. Citrus Fruit Plants -->
+        <a href="citrus-fruits.html" class="block bg-yellow-100 rounded-xl shadow-lg overflow-hidden transform transition duration-300 hover:scale-105 hover:shadow-2xl">
+          <img src="https://img.freepik.com/free-photo/close-up-palms-against-blue-sky_1268-15577.jpg" class="h-48 w-full object-cover"/>
+          <div class="p-4 text-center">
+            <h3 class="text-xl font-semibold">Medium Height Palm Varieties</h3>
+          </div>
+        </a>
+
+        <!-- 3. Berry Fruit Plants -->
+        <a href="berry-fruits.html" class="block bg-pink-100 rounded-xl shadow-lg overflow-hidden transform transition duration-300 hover:scale-105 hover:shadow-2xl">
+          <img src="https://m.media-amazon.com/images/I/71aYbKY8MFL.jpg" class="h-48 w-full object-cover"/>
+          <div class="p-4 text-center">
+            <h3 class="text-xl font-semibold">Ornamental & Landscape Palm Varieties</h3>
+          </div>
+        </a>
+
+        <!-- 4. Vine and Creeper Fruits -->
+        <a href="vine-creeper-fruits.html" class="block bg-purple-100 rounded-xl shadow-lg overflow-hidden transform transition duration-300 hover:scale-105 hover:shadow-2xl">
+          <img src="https://static.wikia.nocookie.net/fruit/images/1/1c/Pngtree-closeup-of-asian-palmyra-palm-also-known-as-toddy-palm-or-sugar-palm-isolated-on-white-background-with-clipping-path-photo-image_26829738.jpg" class="h-48 w-full object-cover"/>
+          <div class="p-4 text-center">
+            <h3 class="text-xl font-semibold">Native & Hardy Palm Varieties</h3>
+          </div>
+        </a>
+
+        <!-- 5. Tropical & Subtropical Fruits -->
+        <a href="tropical-fruits.html" class="block bg-orange-100 rounded-xl shadow-lg overflow-hidden transform transition duration-300 hover:scale-105 hover:shadow-2xl">
+          <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR6e5gWhw1D4x0AM04mlSTdvrdoOuicDSvTpA&s" class="h-48 w-full object-cover"/>
+          <div class="p-4 text-center">
+            <h3 class="text-xl font-semibold">Median & Divider palms</h3>
+          </div>
+        </a>
+
+        <!-- 6. Plantation Fruit Plants -->
+        <a href="plantation-fruits.html" class="block bg-green-200 rounded-xl shadow-lg overflow-hidden transform transition duration-300 hover:scale-105 hover:shadow-2xl">
+          <img src="https://plantsguru.com/cdn/shop/files/royal-palm.jpg?v=1745834744" class="h-48 w-full object-cover"/>
+          <div class="p-4 text-center">
+            <h3 class="text-xl font-semibold">Commercial Palm Varieties</h3>
+          </div>
+        </a>
+
+      </div>
+    </section>
+  </main>
+
+  <!-- Footer -->
+  <footer class="bg-green-700 text-white text-center py-6">
+    © 2026 Sri Satya Ramayya Nursery
+  </footer>
+
+  <!-- JS -->
+  <script src="fruit-plants.js"></script>
+</body>
+</html>
